@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16a48e5b-32d2-4893-abc8-573c231e847b" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MOVED" beforePath="$PROJECT_DIR$/ChargeLog/app/src/main/java/hu/syscow/charge/service/BatteryCheckService.java" afterPath="$PROJECT_DIR$/ChargeLog/app/src/main/java/hu/syscow/charge/service/BatteryCheckServiceAdd.java" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> service-change
     </list>
     <ignored path="batteryChargeHistory.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,10 +26,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="BatteryCheckServiceAdd.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ChargeLog/app/src/main/java/hu/syscow/charge/service/BatteryCheckServiceAdd.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
+=======
+      <file leaf-file-name="BatteryCheckServiceChange.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ChargeLog/app/src/main/java/hu/syscow/charge/service/BatteryCheckServiceChange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+>>>>>>> service-change
               <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding />
             </state>
@@ -45,9 +56,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/ChargeLog/app/src/main/java/hu/syscow/charge/service/BatteryCheckServiceChange.java" />
         <option value="$PROJECT_DIR$/ChargeLog/app/src/main/java/hu/syscow/charge/service/BatteryCheckService.java" />
         <option value="$PROJECT_DIR$/ChargeLog/app/src/main/java/hu/syscow/charge/service/BatteryCheckServiceAdd.java" />
+=======
+        <option value="$PROJECT_DIR$/ChargeLog/app/src/main/java/hu/syscow/charge/service/BatteryCheckService.java" />
+        <option value="$PROJECT_DIR$/ChargeLog/app/src/main/java/hu/syscow/charge/service/BatteryCheckServiceChange.java" />
+>>>>>>> service-change
       </list>
     </option>
   </component>
@@ -634,6 +650,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/ChargeLog/app/src/main/java/hu/syscow/charge/service/BatteryCheckServiceAdd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -642,5 +659,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> service-change
   </component>
 </project>

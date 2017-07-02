@@ -18,17 +18,17 @@ import hu.syscow.charge.receiver.AlarmReceiver;
  * Created by syscow on 2017. 04. 23..
  */
 
-public class BatteryCheckServiceAdd extends Service{
+public class BatteryCheckServiceChangeAdd extends Service{
 
-    public static final String BATTERY_UPDATE = "BatteryCheckServiceAdd.BATTERY_UPDATE";
-    public static final String BATTERY_UPDATED = "BatteryCheckServiceAdd.BATTERY_UPDATED";
-    public static final String EXTRA_BATTERY_LEVEL = "BatteryCheckServiceAdd.EXTRA_BATTERY_LEVEL";
+    public static final String BATTERY_UPDATE = "BatteryCheckServiceChangeAdd.BATTERY_UPDATE";
+    public static final String BATTERY_UPDATED = "BatteryCheckServiceChangeAdd.BATTERY_UPDATED";
+    public static final String EXTRA_BATTERY_LEVEL = "BatteryCheckServiceChangeAdd.EXTRA_BATTERY_LEVEL";
     private MyLogDb myLogDb = MyLogDb.getInstance();
     private static boolean startedAlarm = false;
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.i("BatteryCheckServiceAdd", "onStartCommand");
+        Log.i("BatteryCheckServiceChangeAdd", "onStartCommand");
 
         if (!startedAlarm){
             startedAlarm = true;
@@ -92,7 +92,7 @@ public class BatteryCheckServiceAdd extends Service{
                 sendBatteryLevelIntent.putExtra(BatteryCheckService.EXTRA_BATTERY_LEVEL, level);
                 sendBroadcast(sendBatteryLevelIntent);
             } catch (IllegalStateException e) {
-                Log.e("BatteryCheckServiceAdd", e.getMessage());
+                Log.e("BatteryCheckServiceChangeAdd", e.getMessage());
             }
 
             return null;
