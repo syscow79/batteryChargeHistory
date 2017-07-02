@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16a48e5b-32d2-4893-abc8-573c231e847b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ChargeLog/app/src/main/java/hu/syscow/charge/service/BatteryCheckService.java" afterPath="$PROJECT_DIR$/ChargeLog/app/src/main/java/hu/syscow/charge/service/BatteryCheckServiceChange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="batteryChargeHistory.iws" />
     <ignored path=".idea/workspace.xml" />
